@@ -1,0 +1,52 @@
+   /* seletor{
+
+
+    }
+*/
+h1{
+text-align: center;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+display: block;
+
+}
+
+nav{
+text-decoration: none;
+text-align: center;
+}
+nav:hover {
+background-color: aliceblue;
+}
+
+
+div{
+
+    border: 25px solid blue;
+    padding: 25px;
+    margin: 25px;   
+    width: 1344px;
+    height: 245x;
+    color: white;
+    
+}
+    h2{
+        text-align: center;
+        color: blue;
+
+    }
+
+    body{
+        background-image: url("backgroundOpaco.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: grey;
+    }
