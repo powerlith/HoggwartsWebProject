@@ -1,52 +1,118 @@
-   /* seletor{
+   /* Iniciando fontes extras e Cabeçalho*/
+@font-face {
+    font-family: 'harry_pregular';
+    src: url('harryp__-webfont.woff2') format('woff2'),
+         url('harryp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+.HarryFonte{
+font-family: 'harry_pregular', Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
 
-    }
-*/
 h1{
-text-align: center;
+    text-align: center;
+    font-size: 100px;
 }
 
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li a{
-display: block;
-
-}
-
+/*barra de navegação*/
 nav{
+font-size: 45px;
+color: black;
+}
+a {
+    color: black;
 text-decoration: none;
-text-align: center;
-}
-nav:hover {
-background-color: aliceblue;
+font-size: 45px;
 }
 
+.homepage{
+    background-color: blueviolet;
+}
+.homepage:hover{
+background-image: url("homepageHover.png");
 
-div{
+}
 
-    border: 25px solid blue;
-    padding: 25px;
-    margin: 25px;   
-    width: 1344px;
-    height: 245x;
-    color: white;
+.disciplinas:hover{
+    background-image: url("disciplinas.png");
+}
+
+.tribuxo:hover{
+    background-image: url("tribuxo.png");
+}
+
+.animais:hover{
+    background-image: url("animais.png");
+}
+
+.quadribol:hover{
+    background-image: url("quadribol.png");
+}
+/*fim da barra de navegação*/
+
+
+h2{
+    font-size: 35px;
+    text-align: left;
+}
+
+h3{
+font-size: 20px;
+color:black;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
+/*div .HarryFonte{
     
+}*/
+   
+.logo{
+float: right;
 }
-    h2{
-        text-align: center;
-        color: blue;
-
-    }
-
     body{
-        background-image: url("backgroundOpaco.png");
+        background-image: url("background2_opaco.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: grey;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* mudanças
+
+
+
+
+tirei a lista do nav para ficar do jeito que eu queria (barra no meio)
+
+
+    ul{
+    text-align:center;
+    list-style: none;
+    width:450px;
+    margin-left:auto;
+    margin-right:auto;
+    text-
+}
+
+
+*/
