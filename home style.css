@@ -31,9 +31,14 @@ text-decoration: none;
 font-size: 45px;
 }
 
+/* a configuração :hover é usada para quando o mouse estiver passando em cima do local específico do container */
+/* no caso, quando for sua página, é só usar o código da home sem o :hover, e excluir o código da home */
+
 .homepage{
     background-color: blueviolet;
 }
+
+
 .homepage:hover{
 background-image: url("homepageHover.png");
 
@@ -56,18 +61,32 @@ background-image: url("homepageHover.png");
 }
 /*fim da barra de navegação*/
 
+/* Configuração de estilo do Artigo */
+
+article{
+    border-radius: 25px;
+  background: yellow;
+    border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 1200px;
+  height: 320px; 
+  opacity: 0.8;
+  }
+}
 
 h2{
+    text-align: center;
     font-size: 35px;
-    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h3{
+    text-align: justify;
 font-size: 20px;
-color:black;
+color:crimson;
 margin-left: auto;
 margin-right: auto;
-text-align: left;
 }
 
 /*div .HarryFonte{
@@ -83,16 +102,6 @@ float: right;
         background-size: cover;
         background-color: grey;
     }
-
-
-
-
-
-
-
-
-
-
 
 
 
