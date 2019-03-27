@@ -24,7 +24,6 @@ h1{
 
 /*barra de navegação*/
 nav{
-width: 100%;
 font-size: 45px;
 color: black;
 }
@@ -37,30 +36,30 @@ font-size: 45px;
 /* a configuração :hover é usada para quando o mouse estiver passando em cima do local específico do container */
 /* no caso, quando for sua página, é só usar o código da home sem o :hover, e excluir o código da home */
 
-.homepage{
-    background-color:white;
-    border-radius: 6px;
+.tribruxo{
+    background-color: blueviolet;
 }
 
 
 .homepage:hover{
-    background-color: red;
+background-image: url("homepageHover.png");
+
 }
 
 .disciplinas:hover{
-    background-color: red;
+    background-image: url("disciplinas.png");
 }
 
 .tribuxo:hover{
-    background-color: red;
+    background-image: url("tribuxo.png");
 }
 
 .animais:hover{
-    background-color: red;
+    background-image: url("animais.png");
 }
 
 .quadribol:hover{
-    background-color: red;
+    background-image: url("quadribol.png");
 }
 /*fim da barra de navegação*/
 
@@ -68,31 +67,24 @@ font-size: 45px;
 
 article{
 border-radius: 25px;
-background: white;
+background: yellow;
 border: 2px solid #73AD21;
 padding: 20px; 
-max-width: 100%;
-max-height: 100%;  
-opacity: 0.7;
-text-align: center;
-  }
-
- .textoArtigo{
-text-align: justify;
-font-size: 150%; 
+width: 1200px;
+height: 335px; 
+opacity: 0.8;
   }
 
 
 h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .C_artigo{
-    width: 100%;
-    text-align: justify;
+    text-align: left;
     position: relative;
 }
 
@@ -114,37 +106,14 @@ margin-left: auto;
 margin-right: auto;
 }
 
-
-/*
 .mapa{
-    background-image: url("mapa.jpg");
     display: block;
-    background-position: center;
-    top: 50%;
-    left: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 10%;
-    position: absolute;
-}*/
-
-.mapa{
-display: inline-block;
-border-radius: 8px;
-}
-
-.mapa img:hover{
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    float: right;   
 }
 
 .video{
     margin: auto;
-    width: 80%;
-    height: 60%;
+    width: 60%;
     border: 3px solid #73AD21;
     padding: 10px;
 }
@@ -169,7 +138,6 @@ float: right;
         .C_artigo { width:600px; }
         .video { width:600px; }
         .HarryFonte { width:600px; }
-        article{ width:600px;}
     
        }
 
