@@ -37,7 +37,7 @@ font-size: 45px;
 /* a configuração :hover é usada para quando o mouse estiver passando em cima do local específico do container */
 /* no caso, quando for sua página, é só usar o código da home sem o :hover, e excluir o código da home */
 
-.animais{
+.tribuxo{
     background-color:white;
     border-radius: 6px;
 }
@@ -106,12 +106,50 @@ div .box{
     margin-bottom: 25px;
 }
 
+
+h3{
+    text-align: justify;
+font-size: 20px;
+color:black;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+/*
+.mapa{
+    background-image: url("mapa.jpg");
+    display: block;
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10%;
+    position: absolute;
+}*/
+
 .tribruxo{
 display: inline-block;
 border-radius: 8px;
 }
 
+.mapa img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
+.video{
+    margin: auto;
+    width: 80%;
+    height: 60%;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 10px;
+}
 /*div .HarryFonte{
     
 }*/
@@ -129,6 +167,9 @@ max-height: 271px;
         background-color: grey;
     }
 
+
+
+    
 /* Responsividade */
 
     @media only screen and (max-device-width: 900px) {
@@ -138,3 +179,41 @@ max-height: 271px;
         article{ width:600px;}
     
        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* mudanças
+
+
+
+
+tirei a lista do nav para ficar do jeito que eu queria (barra no meio)
+
+
+    ul{
+    text-align:center;
+    list-style: none;
+    width:450px;
+    margin-left:auto;
+    margin-right:auto;
+    text-
+}
+
+
+*/
