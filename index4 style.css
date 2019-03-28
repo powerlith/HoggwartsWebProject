@@ -37,7 +37,7 @@ font-size: 45px;
 /* a configuração :hover é usada para quando o mouse estiver passando em cima do local específico do container */
 /* no caso, quando for sua página, é só usar o código da home sem o :hover, e excluir o código da home */
 
-.tribuxo{
+.animais{
     background-color:white;
     border-radius: 6px;
 }
