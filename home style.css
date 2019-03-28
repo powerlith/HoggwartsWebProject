@@ -34,7 +34,7 @@ text-decoration: none;
 font-size: 45px;
 }
 
-/* a configuração :hover é usada para quando o mouse estiver passando em cima do local específico do container */
+/* a configurwação :hover é usada para quando o mouse estiver passando em cima do local específico do container */
 /* no caso, quando for sua página, é só usar o código da home sem o :hover, e excluir o código da home */
 
 .homepage{
@@ -159,7 +159,7 @@ float: right;
 }
 
     body{
-        background-image: url("background2_opaco.jpg");
+        background-image: url("img/background2_opaco.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: grey;

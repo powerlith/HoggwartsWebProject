@@ -159,7 +159,7 @@ float: right;
 }
 
     body{
-        background-image: url("background2_opaco.jpg");
+        background-image: url("img/background2_opaco.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: grey;
