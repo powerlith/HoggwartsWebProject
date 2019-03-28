@@ -1,0 +1,150 @@
+   /* Iniciando fontes extras e Cabeçalho*/
+   @font-face {
+    font-family: 'harry_pregular';
+    src: url('harryp__-webfont.woff2') format('woff2'),
+         url('harryp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.HarryFonte{
+font-family: 'harry_pregular', Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+/*barra de navegação*/
+nav{
+width: 100%;
+font-size: 45px;
+color: black;
+}
+a {
+    color: black;
+text-decoration: none;
+font-size: 45px;
+}
+
+/* a configuração :hover é usada para quando o mouse estiver passando em cima do local específico do container */
+/* no caso, quando for sua página, é só usar o código da home sem o :hover, e excluir o código da home */
+
+.animais{
+    background-color:white;
+    border-radius: 6px;
+}
+
+
+.homepage:hover{
+    background-color: red;
+}
+
+.disciplinas:hover{
+    background-color: red;
+}
+
+.tribuxo:hover{
+    background-color: red;
+}
+
+.animais:hover{
+    background-color: red;
+}
+
+.quadribol:hover{
+    background-color: red;
+}
+/*fim da barra de navegação*/
+
+/* Configuração de estilo do Artigo */
+
+article{
+border-radius: 25px;
+background: white;
+border: 2px solid black;
+padding: 20px; 
+max-width: 100%;
+max-height: 100%;  
+opacity: 0.7;
+text-align: center;
+  }
+
+ .textoArtigo{
+text-align: justify;
+font-size: 150%; 
+  }
+
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.C_artigo{
+    width: 100%;
+    text-align: justify;
+    position: relative;
+    margin: auto;
+}
+
+
+
+div .box{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+
+h3{
+    text-align: justify;
+font-size: 20px;
+color:black;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.tribruxo{
+display: inline-block;
+border-radius: 8px;
+}
+
+
+/*div .HarryFonte{
+    
+}*/
+
+.logo{
+float: right;
+max-width: 284px;
+max-height: 271px;
+}
+
+    body{
+        background-image: url("background2_opaco.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: grey;
+    }
+
+/* Responsividade */
+
+    @media only screen and (max-device-width: 900px) {
+        .C_artigo { width:600px; }
+        .video { width:600px; }
+        .HarryFonte { width:600px; }
+        article{ width:600px;}
+    
+       }
